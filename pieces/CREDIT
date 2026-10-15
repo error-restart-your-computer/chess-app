@@ -1,0 +1,22 @@
+WIKIPEDIA / CBURNETT CHESS PIECES
+=================================
+
+The twelve piece images in this directory (wK.png ... bP.png, rendered at
+192x192 with transparent backgrounds) are of the chess pieces drawn by
+Colin M. Burnett ("Cburnett" on Wikipedia), the set Wikipedia, lichess and
+most chess programs show by default.
+
+  Author:  Colin M. Burnett
+  Source:  the original SVGs as kept by lichess in
+           https://github.com/lichess-org/lila (public/piece/cburnett/)
+  License: GNU General Public License, version 2 or later (GPLv2+)
+
+They are rendered here unmodified in shape (only scaled to PNG). The pieces
+are used under the terms of the GPL; the SVG sources and the license text
+are available from the addresses above.
+
+To use a different set, replace the twelve PNGs with same-named files
+(wK.png, wQ.png, wR.png, wB.png, wN.png, wP.png and the b* ones), or point
+the PIECES environment variable at a directory holding them. With no
+complete set to be found the program draws its own pieces instead and these
+files are never touched.

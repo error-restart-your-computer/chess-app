@@ -1,0 +1,12 @@
+# build outputs
+/chess
+/build/
+/bin/
+
+# the Stockfish clone lives here (`make stockfish` fetches it): never commit
+/stockfish/
+
+# dev-tool leftovers
+tools/__pycache__/
+shapes.bmp
+*.o
